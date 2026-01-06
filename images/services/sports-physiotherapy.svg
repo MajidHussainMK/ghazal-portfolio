@@ -1,0 +1,39 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sportsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.7" />
+    </linearGradient>
+    <linearGradient id="motionGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#D97706;stop-opacity:0.5" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#0A0A0A"/>
+  
+  <!-- Abstract athlete/movement -->
+  <ellipse cx="200" cy="150" rx="80" ry="120" fill="none" stroke="url(#sportsGrad)" stroke-width="3" opacity="0.4"/>
+  
+  <!-- Motion lines -->
+  <line x1="100" y1="150" x2="300" y2="150" stroke="url(#motionGrad)" stroke-width="2" opacity="0.6"/>
+  <line x1="120" y1="100" x2="280" y2="200" stroke="url(#motionGrad)" stroke-width="2" opacity="0.5"/>
+  <line x1="120" y1="200" x2="280" y2="100" stroke="url(#motionGrad)" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Dynamic energy -->
+  <path d="M200 50 Q220 100, 200 150 T200 250" 
+        stroke="url(#sportsGrad)" 
+        stroke-width="4" 
+        fill="none" 
+        opacity="0.7"/>
+  
+  <!-- Performance indicators -->
+  <circle cx="200" cy="80" r="6" fill="#10B981" opacity="0.9"/>
+  <circle cx="200" cy="150" r="8" fill="#10B981" opacity="1"/>
+  <circle cx="200" cy="220" r="6" fill="#10B981" opacity="0.9"/>
+  
+  <!-- Speed lines -->
+  <line x1="50" y1="150" x2="100" y2="150" stroke="#F59E0B" stroke-width="2" opacity="0.4"/>
+  <line x1="300" y1="150" x2="350" y2="150" stroke="#F59E0B" stroke-width="2" opacity="0.4"/>
+</svg>

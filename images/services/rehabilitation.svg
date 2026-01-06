@@ -1,0 +1,43 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rehabGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.6" />
+    </linearGradient>
+    <linearGradient id="rehabGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#D97706;stop-opacity:0.5" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#0A0A0A"/>
+  
+  <!-- Abstract recovery path -->
+  <path d="M50 250 Q150 150, 200 100 T350 50" 
+        stroke="url(#rehabGrad1)" 
+        stroke-width="6" 
+        fill="none" 
+        stroke-linecap="round"/>
+  
+  <!-- Progress markers -->
+  <circle cx="100" cy="200" r="8" fill="#10B981" opacity="0.9"/>
+  <circle cx="200" cy="100" r="10" fill="#10B981" opacity="1"/>
+  <circle cx="300" cy="60" r="8" fill="#10B981" opacity="0.9"/>
+  
+  <!-- Healing waves -->
+  <path d="M80 220 Q120 200, 160 220 T240 220" 
+        stroke="url(#rehabGrad2)" 
+        stroke-width="3" 
+        fill="none" 
+        opacity="0.7"/>
+  <path d="M120 180 Q160 160, 200 180 T280 180" 
+        stroke="url(#rehabGrad2)" 
+        stroke-width="3" 
+        fill="none" 
+        opacity="0.5"/>
+  
+  <!-- Abstract healing energy -->
+  <circle cx="200" cy="150" r="100" fill="none" stroke="#10B981" stroke-width="1" opacity="0.1"/>
+  <circle cx="200" cy="150" r="70" fill="none" stroke="#F59E0B" stroke-width="1" opacity="0.08"/>
+</svg>
